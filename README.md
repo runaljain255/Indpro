@@ -44,16 +44,25 @@ Setting up the solution -
 1. .NET 8 API Solution (./INDPRO-API)- As I have used code first migration to make the database and entities, to setup the project in local the steps need to be followed are - 
 
   a. Downloading the solution and opening it (.sln) in visual studio.
+  
   b. Ensuring .net 8 sdk and sqllite 3  is installed in the local machine.
+  
   c. Building solution and installing dependencies from nuget package manager from visual studio. - https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore
+  
   d. Applying Migration and Updating Database - https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+  
   e. Building and running the solution - https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-run
 
+
 2. React App (./indpro-client) -
+
   a. Verify npm (>=9.5.1) , node (>=18.16.0) and react (>=18.2.0) is installed in the local machine.
+  
   b. Go into the indpro-client directory. 'cd indpro-client'
-  b. run 'npm install' to install the packages used like react bootstrap, axios etc.
-  c. run 'npm run' command to run the solution
+  
+  c. run 'npm install' to install the packages used like react bootstrap, axios etc.
+  
+  d. run 'npm run' command to run the solution
 
 
 
