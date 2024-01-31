@@ -10,7 +10,7 @@ on the field like -
 2.Description - not required - should be less than 200 characters.
 3.Price - required.
 These validations will work in client side as well as server side.
-
+**Note - The designs are generated as per the developer preference as no Wireframe was provided.
 Fetching All Products - 
 ![image](https://github.com/runaljain255/Indpro/assets/55238317/2258578b-74e6-4d9b-92b9-d98abca505e7)
 
